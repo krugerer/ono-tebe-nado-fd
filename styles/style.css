@@ -61,6 +61,7 @@ body {
     background-size: cover;
     min-height: 757px;
     z-index: 0;
+    padding: 165px 50px 50px 50px;
 }
 
 .overlay {
@@ -81,7 +82,7 @@ body {
     color: #fff;
     font-size: 100px;
     z-index: 1;
-    padding: 165px 50px 207px 50px;
+    /* padding: 165px 50px 207px 50px; */
 }
 
 .aligned-text {
@@ -106,7 +107,8 @@ body {
 .cover__description {
     display: flex;
     align-items: center;
-    padding: 106px 50px 50px;
+    margin-top: 106px;
+    /* padding: 106px 50px 50px; */
 }
 
 .cover__description-text {
@@ -232,7 +234,8 @@ body {
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    padding: 120px 24px 180px 24px;
+    padding: 0 24px 0 24px;
+    gap: 72px;
 }
 
 .about__logo {
@@ -251,11 +254,13 @@ body {
 }
 
 .about__column-left {
-    justify-items: center;
+    /* justify-items: center; */
+    padding-top: 35px;
+    padding-left: 47px;
 }
 
 .about__column-right {
-    padding-top: 98px;
+    padding-top: 133px;
 }
 
 .about__title {
@@ -269,13 +274,12 @@ body {
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
     font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     padding-top: 100px;
-    gap: 30px;
 }
 
 .footer {
