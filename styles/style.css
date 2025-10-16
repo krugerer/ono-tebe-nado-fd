@@ -285,6 +285,7 @@ body {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr min-content;
+    margin-top: 180px;
     padding: 0px 50px 82px 50px;
     justify-self: center;
     gap: 165px;
